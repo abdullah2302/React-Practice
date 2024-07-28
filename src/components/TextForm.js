@@ -6,6 +6,8 @@ export default function TextForm(probs) {
   const [text, setText] = useState("Enter text here");
   const [oldWord, setOldWord] = useState("");
   const [newWord, setNewWord] = useState("");
+
+  
   const UpperHandle = () => {
     let textset = text.toUpperCase();
     return setText(textset);
